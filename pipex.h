@@ -17,12 +17,17 @@
 # include <stdio.h>
 # include <stdlib.h>
 
+/* for OPEN FUNCTION */
+# include <sys/types.h>
+# include <sys/stat.h>
+# include <fcntl.h>
+
 typedef struct s_list {
 	pid_t	pid1;
 	pid_t	pid2;
 	int		tube[2];
-	int 	input_file;
-	int 	output_file;
+	int 	input_file_fd;
+	int 	output_file_fd;
 	char	**path_command;
 	char	**args_command;
 	char	*command;
