@@ -23,8 +23,7 @@
 # include <fcntl.h>
 
 typedef struct s_list {
-	pid_t	pid1;
-	pid_t	pid2;
+	pid_t	pid;
 	int		tube[2];
 	int 	input_file_fd;
 	int 	output_file_fd;
