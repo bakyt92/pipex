@@ -84,6 +84,48 @@ build CMakeFiles/06_PIPEX.dir/src_pipex/ft_error.c.o: C_COMPILER__06_PIPEX_Debug
   OBJECT_DIR = CMakeFiles/06_PIPEX.dir
   OBJECT_FILE_DIR = CMakeFiles/06_PIPEX.dir/src_pipex
 
+build CMakeFiles/06_PIPEX.dir/src_pipex/ft_utils.c.o: C_COMPILER__06_PIPEX_Debug /Users/ufitzhug/Desktop/06_PIPEX/src_pipex/ft_utils.c || cmake_object_order_depends_target_06_PIPEX
+  DEP_FILE = CMakeFiles/06_PIPEX.dir/src_pipex/ft_utils.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
+  OBJECT_DIR = CMakeFiles/06_PIPEX.dir
+  OBJECT_FILE_DIR = CMakeFiles/06_PIPEX.dir/src_pipex
+
+build CMakeFiles/06_PIPEX.dir/src_pipex/ft_libft_functions.c.o: C_COMPILER__06_PIPEX_Debug /Users/ufitzhug/Desktop/06_PIPEX/src_pipex/ft_libft_functions.c || cmake_object_order_depends_target_06_PIPEX
+  DEP_FILE = CMakeFiles/06_PIPEX.dir/src_pipex/ft_libft_functions.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
+  OBJECT_DIR = CMakeFiles/06_PIPEX.dir
+  OBJECT_FILE_DIR = CMakeFiles/06_PIPEX.dir/src_pipex
+
+build CMakeFiles/06_PIPEX.dir/src_pipex/ft_split.c.o: C_COMPILER__06_PIPEX_Debug /Users/ufitzhug/Desktop/06_PIPEX/src_pipex/ft_split.c || cmake_object_order_depends_target_06_PIPEX
+  DEP_FILE = CMakeFiles/06_PIPEX.dir/src_pipex/ft_split.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
+  OBJECT_DIR = CMakeFiles/06_PIPEX.dir
+  OBJECT_FILE_DIR = CMakeFiles/06_PIPEX.dir/src_pipex
+
+build CMakeFiles/06_PIPEX.dir/src_pipex/ft_substr.c.o: C_COMPILER__06_PIPEX_Debug /Users/ufitzhug/Desktop/06_PIPEX/src_pipex/ft_substr.c || cmake_object_order_depends_target_06_PIPEX
+  DEP_FILE = CMakeFiles/06_PIPEX.dir/src_pipex/ft_substr.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
+  OBJECT_DIR = CMakeFiles/06_PIPEX.dir
+  OBJECT_FILE_DIR = CMakeFiles/06_PIPEX.dir/src_pipex
+
+build CMakeFiles/06_PIPEX.dir/src_pipex/ft_child.c.o: C_COMPILER__06_PIPEX_Debug /Users/ufitzhug/Desktop/06_PIPEX/src_pipex/ft_child.c || cmake_object_order_depends_target_06_PIPEX
+  DEP_FILE = CMakeFiles/06_PIPEX.dir/src_pipex/ft_child.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
+  OBJECT_DIR = CMakeFiles/06_PIPEX.dir
+  OBJECT_FILE_DIR = CMakeFiles/06_PIPEX.dir/src_pipex
+
+build CMakeFiles/06_PIPEX.dir/src_pipex/ft_strjoin.c.o: C_COMPILER__06_PIPEX_Debug /Users/ufitzhug/Desktop/06_PIPEX/src_pipex/ft_strjoin.c || cmake_object_order_depends_target_06_PIPEX
+  DEP_FILE = CMakeFiles/06_PIPEX.dir/src_pipex/ft_strjoin.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
+  OBJECT_DIR = CMakeFiles/06_PIPEX.dir
+  OBJECT_FILE_DIR = CMakeFiles/06_PIPEX.dir/src_pipex
+
+build CMakeFiles/06_PIPEX.dir/src_pipex/ft_free.c.o: C_COMPILER__06_PIPEX_Debug /Users/ufitzhug/Desktop/06_PIPEX/src_pipex/ft_free.c || cmake_object_order_depends_target_06_PIPEX
+  DEP_FILE = CMakeFiles/06_PIPEX.dir/src_pipex/ft_free.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14 -std=gnu99
+  OBJECT_DIR = CMakeFiles/06_PIPEX.dir
+  OBJECT_FILE_DIR = CMakeFiles/06_PIPEX.dir/src_pipex
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 06_PIPEX
@@ -92,7 +134,7 @@ build CMakeFiles/06_PIPEX.dir/src_pipex/ft_error.c.o: C_COMPILER__06_PIPEX_Debug
 #############################################
 # Link the executable 06_PIPEX
 
-build 06_PIPEX: C_EXECUTABLE_LINKER__06_PIPEX_Debug CMakeFiles/06_PIPEX.dir/pipex.c.o CMakeFiles/06_PIPEX.dir/src_pipex/ft_error.c.o
+build 06_PIPEX: C_EXECUTABLE_LINKER__06_PIPEX_Debug CMakeFiles/06_PIPEX.dir/pipex.c.o CMakeFiles/06_PIPEX.dir/src_pipex/ft_error.c.o CMakeFiles/06_PIPEX.dir/src_pipex/ft_utils.c.o CMakeFiles/06_PIPEX.dir/src_pipex/ft_libft_functions.c.o CMakeFiles/06_PIPEX.dir/src_pipex/ft_split.c.o CMakeFiles/06_PIPEX.dir/src_pipex/ft_substr.c.o CMakeFiles/06_PIPEX.dir/src_pipex/ft_child.c.o CMakeFiles/06_PIPEX.dir/src_pipex/ft_strjoin.c.o CMakeFiles/06_PIPEX.dir/src_pipex/ft_free.c.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -mmacosx-version-min=10.14
   OBJECT_DIR = CMakeFiles/06_PIPEX.dir
   POST_BUILD = :
