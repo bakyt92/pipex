@@ -1,8 +1,20 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_free.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ufitzhug <ufitzhug@student.21-school.ru    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/04/11 20:39:04 by ufitzhug          #+#    #+#             */
+/*   Updated: 2022/04/11 20:43:25 by ufitzhug         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../pipex.h"
 
 void	ft_free_parent(t_list *pipex)
 {
-	int i;
+	int	i;
 
 	i = 0;
 	close(pipex->input_file_fd);
@@ -17,10 +29,10 @@ void	ft_free_parent(t_list *pipex)
 
 void	ft_free_child(t_list *pipex)
 {
-	int i;
+	int	i;
 
 	i = 0;
-	while(pipex->args_command[i])
+	while (pipex->args_command[i])
 	{
 		free(pipex->args_command[i]);
 		i++;

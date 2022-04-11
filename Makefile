@@ -11,7 +11,6 @@ HEADER = pipex.h
 SRC = pipex.c \
 		./src_pipex/ft_error.c \
 		./src_pipex/ft_free.c \
-		./src_pipex/ft_child.c \
 		./src_pipex/ft_libft_functions.c \
 		./src_pipex/ft_split.c \
 		./src_pipex/ft_strjoin.c \

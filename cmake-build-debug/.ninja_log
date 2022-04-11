@@ -1,11 +1,11 @@
 # ninja log v5
-1	67	1649613972000000000	CMakeFiles/06_PIPEX.dir/src_pipex/ft_libft_functions.c.o	40c4da8634ad0117
-1	69	1649613972000000000	CMakeFiles/06_PIPEX.dir/src_pipex/ft_substr.c.o	9d87ba430b8ca572
-2	69	1649613972000000000	CMakeFiles/06_PIPEX.dir/src_pipex/ft_strjoin.c.o	6974108f5c56ef6
-1	69	1649613972000000000	CMakeFiles/06_PIPEX.dir/src_pipex/ft_utils.c.o	beb77dc9dcc1869c
-1	90	1649613972000000000	CMakeFiles/06_PIPEX.dir/src_pipex/ft_split.c.o	f8ac4dde322aa57
-0	90	1649613972000000000	CMakeFiles/06_PIPEX.dir/pipex.c.o	8e232640f85d26f2
-1	90	1649613972000000000	CMakeFiles/06_PIPEX.dir/src_pipex/ft_error.c.o	fe7e1595d021bb36
-2	90	1649613972000000000	CMakeFiles/06_PIPEX.dir/src_pipex/ft_child.c.o	f933d5b7e847880c
-67	102	1649613972000000000	CMakeFiles/06_PIPEX.dir/src_pipex/ft_free.c.o	b82955b605742972
-103	234	1649613972000000000	06_PIPEX	8ce69da82b7ecbad
+103	137	1649699585000000000	06_PIPEX	ef58811ed4ce5f77
+1	89	1649699585000000000	CMakeFiles/06_PIPEX.dir/pipex.c.o	8e232640f85d26f2
+2	91	1649699585000000000	CMakeFiles/06_PIPEX.dir/src_pipex/ft_libft_functions.c.o	40c4da8634ad0117
+2	87	1649699585000000000	CMakeFiles/06_PIPEX.dir/src_pipex/ft_utils.c.o	beb77dc9dcc1869c
+5	88	1649699585000000000	CMakeFiles/06_PIPEX.dir/src_pipex/ft_strjoin.c.o	6974108f5c56ef6
+1	94	1649699585000000000	CMakeFiles/06_PIPEX.dir/src_pipex/ft_error.c.o	fe7e1595d021bb36
+4	103	1649699585000000000	CMakeFiles/06_PIPEX.dir/src_pipex/ft_substr.c.o	9d87ba430b8ca572
+7	92	1649699585000000000	CMakeFiles/06_PIPEX.dir/src_pipex/ft_free.c.o	b82955b605742972
+3	88	1649699585000000000	CMakeFiles/06_PIPEX.dir/src_pipex/ft_split.c.o	f8ac4dde322aa57
+1	75	1649699695000000000	build.ninja	bfe69a01f62c59b0

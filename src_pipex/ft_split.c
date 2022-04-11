@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_split.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ufitzhug <ufitzhug@student.21-school.ru    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2022/04/11 20:39:59 by ufitzhug          #+#    #+#             */
+/*   Updated: 2022/04/11 20:40:34 by ufitzhug         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../pipex.h"
 
 void	*ft_memset(void *s, int c, size_t n)
@@ -88,5 +100,3 @@ char	**ft_split(char const *s, char c)
 	arr = ft_words_write(s, arr, c, num_words);
 	return (arr);
 }
-
-
