@@ -78,11 +78,9 @@ char	**ft_split(char const *s, char c)
 {
 	int		num_words;
 	char	**arr;
-	int		i;
 
 	if (!s)
 		return (NULL);
-	i = 0;
 	num_words = ft_num_words((char *)s, c);
 	arr = (char **)ft_calloc((num_words + 1), sizeof(char *));
 	if (!arr)

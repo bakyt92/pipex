@@ -17,3 +17,9 @@ void	ft_error(char *str)
 	perror(str);
 	exit(EXIT_FAILURE);
 }
+
+void 	ft_strerror(char *str)
+{
+	write(2, str, ft_strlen(str));
+	exit(EXIT_FAILURE);
+}

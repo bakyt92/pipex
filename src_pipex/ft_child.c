@@ -17,7 +17,7 @@ char 	*ft_check_access(char **path_command, char *command)
 	}
 	return(NULL);
 }
-
+/*
 void	ft_first_child(t_list pipex, char **argv, char **envp)
 {
 	if (pipex.pid1 != 0)
@@ -25,15 +25,10 @@ void	ft_first_child(t_list pipex, char **argv, char **envp)
 	dup2(pipex.tube[1], 1);
 	close(pipex.tube[0]);
 	dup2(pipex.input_file_fd, 0);
-	pipex.args_command = ft_split(argv[2], ' ');
-	pipex.command = ft_check_access(pipex.path_command, pipex.command);
-	if (!pipex.command)
-	{
-		ft_free_child(&pipex);
-		write(2, "CMD NOT FOUND", 13);
-		exit(1);
-	}
-	execve(pipex.command, pipex.args_command, envp);
+
+
+
+
 }
 
 void	ft_second_child(t_list pipex, char **argv, char **envp)
@@ -53,3 +48,4 @@ void	ft_second_child(t_list pipex, char **argv, char **envp)
 	}
 	execve(pipex.command, pipex.args_command, envp);
 }
+ */

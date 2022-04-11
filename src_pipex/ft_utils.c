@@ -9,4 +9,5 @@ char	*ft_find_path(char **envp)
 		envp++;
 	}
 	ft_error("PATH IS NOT FOUND");
+	return (NULL);
 }

@@ -24,6 +24,7 @@
 
 typedef struct s_list {
 	pid_t	pid;
+	int 	args_counter;
 	int		tube[2];
 	int 	input_file_fd;
 	int 	output_file_fd;
@@ -34,8 +35,10 @@ typedef struct s_list {
 }	t_list;
 
 void	ft_error(char *str);
+void 	ft_strerror(char *str);
 char	*ft_find_path(char **envp);
 void	ft_close_p(t_list *pipex);
+void	ft_pipex(char *argv, char **envp, t_list *pipex);
 
 /* FREE PROCESSES */
 
@@ -43,8 +46,9 @@ void	ft_free_child(t_list *pipex);
 void	ft_free_parent(t_list *pipex);
 
 /* CHILREN PROCESSES */
-void	ft_first_child(t_list pipex, char **argv, char **envp);
-void	ft_second_child(t_list pipex, char **argv, char **envp);
+
+//void	ft_first_child(t_list pipex, char **argv, char **envp);
+//void	ft_second_child(t_list pipex, char **argv, char **envp);
 char 	*ft_check_access(char **path_command, char *command);
 
 /* LIBFT FUNCS */
